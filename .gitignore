@@ -1,10 +1,17 @@
-# Terraform dot files
-.terraform
-.terraformrc
-**/.terraform/*
-.terraform.d
+# Terraform related files
 *.tfstate
-*.tfstate.*
-.vscode
-.idea
-.idea
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Husky files
+.husky/_/
